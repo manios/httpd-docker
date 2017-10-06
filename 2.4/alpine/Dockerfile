@@ -101,8 +101,8 @@ RUN set -x \
 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' \
 	)" \
 	&& apk add --virtual .httpd-rundeps $runDeps \
-	&& mkdir "/orig/conf" \
-	&& cp -Rp "$HTTPD_PREFIX/conf/*" "/orig/conf/" \
+	&& mkdir -p "/orig/conf" \
+	&& cp -Rp "$HTTPD_PREFIX"/conf/* /orig/conf \
 	&& apk del .build-deps
 
 COPY httpd-foreground /usr/local/bin/
