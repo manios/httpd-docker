@@ -2,8 +2,8 @@ Based on commit [7b2fe2c](https://github.com/docker-library/httpd/tree/0db1d55db
 
 # Supported tags and respective `Dockerfile` links
 
--	[`2.4.28`, `2.4`, `2`, `latest` (*2.4/Dockerfile*)](https://github.com/manios/httpd-docker/blob/3cad8fab20eaa991b93a7702e8b4b15660ec2232/2.4/Dockerfile)
--	[`2.4.28-alpine`, `2.4-alpine`, `2-alpine`, `alpine` (*2.4/alpine/Dockerfile*)](https://github.com/manios/httpd-docker/blob/3cad8fab20eaa991b93a7702e8b4b15660ec2232/2.4/alpine/Dockerfile)
+-	[`2.4.28`, `2.4`, `2`, `latest` (*2.4/Dockerfile*)](https://github.com/manios/httpd-docker/blob/fdfb1588a5befe402b383da943a830529672f168/2.4/Dockerfile)
+-	[`2.4.28-alpine`, `2.4-alpine`, `2-alpine`, `alpine` (*2.4/alpine/Dockerfile*)](https://github.com/manios/httpd-docker/blob/fdfb1588a5befe402b383da943a830529672f168/2.4/alpine/Dockerfile)
 
 ## Docker Image
 
