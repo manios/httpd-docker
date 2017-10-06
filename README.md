@@ -1,25 +1,11 @@
-<!--
-
-********************************************************************************
-
-WARNING:
-
-    DO NOT EDIT "httpd/README.md"
-
-    IT IS AUTO-GENERATED
-
-    (from the other files in "httpd/" combined with a set of templates)
-
-********************************************************************************
-
--->
-
 Based on commit [7b2fe2c](https://github.com/docker-library/httpd/tree/0db1d55dbc9224c7256946c872dcaaf7e9308132/2.4) of official Httpd image version 2.4.8. It enhances the image by adding the ability to copy initial configuration files to `/usr/local/apache2/conf` directory when the container is run with a volume of ```conf``` directory mounted on host using ```-v```.
 
 # Supported tags and respective `Dockerfile` links
 
 -	[`2.4.28`, `2.4`, `2`, `latest` (*2.4/Dockerfile*)](https://github.com/manios/httpd-docker/blob/4d87760918f292621b8ed7994f265d3fc9aa834d/2.4/Dockerfile)
 -	[`2.4.28-alpine`, `2.4-alpine`, `2-alpine`, `alpine` (*2.4/alpine/Dockerfile*)](https://github.com/manios/httpd-docker/blob/4d87760918f292621b8ed7994f265d3fc9aa834d/2.4/alpine/Dockerfile)
+
+[![](https://images.microbadger.com/badges/image/manios/httpd.svg)](http://microbadger.com/images/manios/httpd)  [![build status badge](https://img.shields.io/travis/manios/httpd-docker/master.svg)](https://travis-ci.org/manios/httpd-docker/branches)
 
 # What is httpd?
 
