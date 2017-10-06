@@ -1,0 +1,22 @@
+language: bash
+services: docker
+
+env:
+  - VERSION=2.4
+  - VERSION=2.4 VARIANT=alpine
+
+install:
+  - git clone https://github.com/manios/httpd-docker.git
+
+before_script:
+  - env | sort
+  - cd "$VERSION/$VARIANT"
+  - image="httpd:${VERSION}${VARIANT:+-$VARIANT}"
+
+script:
+  - travis_retry docker build -t "$image" .
+
+after_script:
+  - docker images
+
+# vim:set et ts=2 sw=2:
