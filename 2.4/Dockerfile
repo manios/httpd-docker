@@ -114,6 +114,8 @@ RUN set -x \
 		-e 's!^(\s*ErrorLog)\s+\S+!\1 /proc/self/fd/2!g' \
 		"$HTTPD_PREFIX/conf/httpd.conf" \
 	\
+	&& mkdir "/orig/conf" \
+	&& cp -Rp "$HTTPD_PREFIX/conf/*" "/orig/conf/" \
 	&& apt-get purge -y --auto-remove $buildDeps
 
 COPY httpd-foreground /usr/local/bin/

@@ -1,7 +1,18 @@
 #!/bin/sh
 set -e
 
+HTTPD_DIR=/usr/local/apache2
+
 # Apache gets grumpy about PID files pre-existing
-rm -f /usr/local/apache2/logs/httpd.pid
+rm -f $HTTPD_DIR/logs/httpd.pid
+
+# Check if conf directory is empty as it might be mounted as a volume to the host
+# https://www.cyberciti.biz/faq/linux-unix-shell-check-if-directory-empty/
+if [ "$(ls -A $HTTPD_DIR/conf)" ]; then
+  echo "$HTTPD_DIR/conf is not empty. We are ok to go."
+else
+  echo "$HTTPD_DIR/conf is Empty. It might be mounted as a volume to the host. Copying initial conf files."
+  cp -Rp /orig/conf/* "$HTTPD_DIR/conf/"
+fi
 
 exec httpd -DFOREGROUND
