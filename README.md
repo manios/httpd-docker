@@ -2,10 +2,18 @@ Based on commit [7b2fe2c](https://github.com/docker-library/httpd/tree/0db1d55db
 
 # Supported tags and respective `Dockerfile` links
 
--	[`2.4.28`, `2.4`, `2`, `latest` (*2.4/Dockerfile*)](https://github.com/manios/httpd-docker/blob/4d87760918f292621b8ed7994f265d3fc9aa834d/2.4/Dockerfile)
--	[`2.4.28-alpine`, `2.4-alpine`, `2-alpine`, `alpine` (*2.4/alpine/Dockerfile*)](https://github.com/manios/httpd-docker/blob/4d87760918f292621b8ed7994f265d3fc9aa834d/2.4/alpine/Dockerfile)
+-	[`2.4.28`, `2.4`, `2`, `latest` (*2.4/Dockerfile*)](https://github.com/manios/httpd-docker/blob/3cad8fab20eaa991b93a7702e8b4b15660ec2232/2.4/Dockerfile)
+-	[`2.4.28-alpine`, `2.4-alpine`, `2-alpine`, `alpine` (*2.4/alpine/Dockerfile*)](https://github.com/manios/httpd-docker/blob/3cad8fab20eaa991b93a7702e8b4b15660ec2232/2.4/alpine/Dockerfile)
 
-[![](https://images.microbadger.com/badges/image/manios/httpd.svg)](http://microbadger.com/images/manios/httpd)  [![build status badge](https://img.shields.io/travis/manios/httpd-docker/master.svg)](https://travis-ci.org/manios/httpd-docker/branches)
+## Docker Image
+
+[![](https://images.microbadger.com/badges/image/manios/httpd:2.4.svg)](https://microbadger.com/images/manios/httpd:2.4 "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/manios/httpd:2.4.svg)](https://microbadger.com/images/manios/httpd:2.4 "Get your own version badge on microbadger.com")
+
+[![](https://images.microbadger.com/badges/image/manios/httpd:2.4-alpine.svg)](https://microbadger.com/images/manios/httpd:2.4-alpine "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/manios/httpd:2.4-alpine.svg)](https://microbadger.com/images/manios/httpd:2.4-alpine "Get your own version badge on microbadger.com")
+
+## Build
+
+[![build status badge](https://img.shields.io/travis/manios/httpd-docker/master.svg)](https://travis-ci.org/manios/httpd-docker/branches)
 
 # What is httpd?
 
