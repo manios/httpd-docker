@@ -1,9 +1,9 @@
-Based on commit [7b2fe2c](https://github.com/docker-library/httpd/tree/0db1d55dbc9224c7256946c872dcaaf7e9308132/2.4) of official Httpd image version 2.4.8. It enhances the image by adding the ability to copy initial configuration files to `/usr/local/apache2/conf` directory when the container is run with a volume of ```conf``` directory mounted on host using ```-v```.
+Based on commit [7976cabe](https://github.com/docker-library/httpd/tree/7976cabe162268bd5ad2d233d61e340447bfc371/2.4) of official Httpd image version 2.4.29. It enhances the image by adding the ability to copy initial configuration files to `/usr/local/apache2/conf` directory when the container is run with a volume of ```conf``` directory mounted on host using ```-v```.
 
 # Supported tags and respective `Dockerfile` links
 
--	[`2.4.28`, `2.4`, `2`, `latest` (*2.4/Dockerfile*)](https://github.com/manios/httpd-docker/blob/fdfb1588a5befe402b383da943a830529672f168/2.4/Dockerfile)
--	[`2.4.28-alpine`, `2.4-alpine`, `2-alpine`, `alpine` (*2.4/alpine/Dockerfile*)](https://github.com/manios/httpd-docker/blob/fdfb1588a5befe402b383da943a830529672f168/2.4/alpine/Dockerfile)
+-	[`2.4.29`, `2.4`, `2`, `latest` (*2.4/Dockerfile*)](https://github.com/manios/httpd-docker/blob/f81b7121aaab2d32bd11be6ce5658457abe0d9d4/2.4/Dockerfile)
+-	[`2.4.29-alpine`, `2.4-alpine`, `2-alpine`, `alpine` (*2.4/alpine/Dockerfile*)](https://github.com/manios/httpd-docker/blob/f81b7121aaab2d32bd11be6ce5658457abe0d9d4/2.4/alpine/Dockerfile)
 
 ## Docker Image
 
